@@ -8,7 +8,7 @@ def Puissance_2(a,b):
     return A ** B
 
 try:
-    resultat = puissance("2", 3)
+    resultat = puissance(2, 3)
     print(f"2 à la puissance 3 est égal à : {resultat}")
 except ValueError as e:
     print(f"Erreur: {e}")
