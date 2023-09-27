@@ -1,5 +1,5 @@
 import pytest
-import fonctions as f
+import fonction as f
 
 def test_1():
     assert f.puissance(2, 3) == 8
