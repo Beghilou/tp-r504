@@ -1,6 +1,6 @@
 import pytest
 
-def Puissance_2(a, b):
+def puissance(a, b):
     a, b = int(a), int(b)
     if not isinstance(b, int):
         raise ValueError("La valeur de l'exposant doit être un nombre entier.")
