@@ -8,5 +8,4 @@ def test_1():
 def test_2():
 	assert f.Puissance_2(-2,3) <0
 
-def test_3():
-	assert f.Puissance_2(0,0) = 1
+
