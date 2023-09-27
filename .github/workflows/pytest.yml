@@ -11,3 +11,7 @@ jobs:
         run: pip3 install pytest
       - name: Run tests
         run: pytest TP1/test.py
+      - name: Branche
+        run: echo"Nom branche : $ { { github . r e f } } "
+      - name: Afficher l'OS de la VM
+        run: echo "Système d'exploitation de la VM : ${{ runner.os }}"
