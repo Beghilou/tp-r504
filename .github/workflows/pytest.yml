@@ -20,3 +20,5 @@ jobs:
         run: echo "Nom branche ${{ github.ref }} "
       - name: Afficher l'OS de la VM
         run: echo "Système d'exploitation de la VM ${{ runner.os }}"
+      - name: Version python
+        run: echo $(python --version)
