@@ -8,25 +8,25 @@ def Puissance_2(a,b):
     return A ** B
 
 try:
-    resultat = puissance(2, 3)
+    resultat = Puissance_2(2, 3)
     print(f"2 à la puissance 3 est égal à : {resultat}")
 except ValueError as e:
     print(f"Erreur: {e}")
 
 try:
-    resultat = puissance(2, 2.5)
+    resultat = Puissance_2(2, 2.5)
     print(f"2 à la puissance 2.5 est égal à : {resultat}")
 except ValueError as e:
     print(f"Erreur: {e}")
 
 try:
-    resultat = puissance(2, -3)
+    resultat = Puissance_2(2, -3)
     print(f"2 à la puissance -3 est égal à : {resultat}")
 except ValueError as e:
     print(f"Erreur: {e}")
 
 try:
-    resultat = puissance(0, 0)
+    resultat = Puissance_2(0, 0)
     print(f"0 à la puissance 0 est égal à : {resultat}")
 except ValueError as e:
     print(f"Erreur: {e}")
