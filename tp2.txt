@@ -1,6 +1,6 @@
 Q1.1 - Combien y a-t-il de contributeurs ? (d’après Github)
 
-Il y a 9 contributeurs
+Il y a 9 contributeurs, ou pas bro ;P (edit de marc)
 
 Q1.2 - Clonez le projet dans votre "home", en mesurant le temps :
 
